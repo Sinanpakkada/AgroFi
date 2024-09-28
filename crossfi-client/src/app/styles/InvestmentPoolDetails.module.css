@@ -1,0 +1,50 @@
+/* styles/InvestmentPoolDetails.module.css */
+
+.container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.header {
+    background-color: #0070f3; /* Blue background */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.poolInformation, .investmentForm, .riskAndReturns, .supplierInformation {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.investmentForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.investmentForm label {
+    margin-bottom: 10px;
+}
+
+.confirmButton {
+    background-color: #0070f3; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.confirmButton:hover {
+    background-color: #005bb5; /* Darker blue */
+}

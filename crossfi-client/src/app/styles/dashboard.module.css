@@ -1,0 +1,62 @@
+/* styles/Dashboard.module.css */
+
+.container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accountLink {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.investmentOverview, .currentPools, .profitDistribution {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.poolTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.poolTable th, .poolTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.poolTable th {
+    background-color: #f2f2f2;
+}
+
+.investButton {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.investButton:hover {
+    background-color: #45a049; /* Darker green */
+}
